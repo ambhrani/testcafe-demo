@@ -1,6 +1,6 @@
 import { Selector } from 'testcafe';
 
-const become_mentor = Selector('#become-mentor-nav');
+const become_mentor = Selector('id=#become-mentor-nav');
 const first_name = Selector('input[id="firstName"]');
 const last_name = Selector('input[id="lastName"]');
 const email = Selector('input[id="email"]');

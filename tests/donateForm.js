@@ -1,18 +1,18 @@
  import { Selector } from 'testcafe';
 
 /*const donate_form = Selector('#donate-hero-form');*/
-const hero_donate_now = Selector('#hero-donate-now');
-const custom_amount = Selector('input["#customAmount"]');
+const hero_donate_now = Selector('[id=#hero-donate-now]');
+const custom_amount = Selector('input[id="#customAmount"]');
 const form_donate_now = Selector('button').withExactText('Donate NOW')
-const first_name = Selector('input["#firstName"]');
-const last_name = Selector('input["#lastName"]');
-const email = Selector('input["#email"]');
-const mobile_no = Selector('input["#mobileNo"]');
+const first_name = Selector('input[id="#firstName"]');
+const last_name = Selector('input["id=#lastName"]');
+const email = Selector('input[id="#email"]');
+const mobile_no = Selector('input[id="#mobileNo"]');
 /*const select_country = Selector('div.nthchild(2)');*/
-const nationality = Selector('#nationality');
-const address = Selector('#address');
-const postal_code = Selector('#postalCode');
-const popup_donate_now = Selector('#popup-donate-now');
+const nationality = Selector('input[id="#nationality"]');
+const address = Selector('input[id="#address"]');
+const postal_code = Selector('input[id="#postalCode"]');
+const popup_donate_now = Selector('input[id="#popup-donate-now"]');
 
 fixture `donate`
  .page('www.digitaldaana.org')
